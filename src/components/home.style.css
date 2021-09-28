@@ -1,0 +1,81 @@
+.cont-cont{
+    background-color: rgb(233, 231, 224);
+    padding-bottom:3rem;
+}
+.about-cont{
+    position: relative;
+    left: 10%;
+    width: 80vw;
+}
+.about h2{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.about h2::after{
+    content: '';
+    background:#028FBA;
+    display: block;
+    height: 3px;
+    width:4rem;
+    margin: 15px auto 5px;
+}
+.about p{
+    text-align:justify;
+    font-size: 1.2rem;
+    line-break: auto;
+    line-height: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+.ticket h2{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.ticket h2::after{
+    content: '';
+    background:#028FBA;
+    display: block;
+    height: 3px;
+    width:6rem;
+    margin: 15px auto 5px;
+}
+.flex-ticket{
+    width: 90vw;
+    height: 40vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.flex1{
+    margin-left: 6rem;
+    width:25rem;
+    background-color: antiquewhite;
+}
+.flex1-img{
+    width: 25rem;
+    height: 18rem;
+}
+.flex1-btn{
+    /* position:absolute; */
+    margin-left: 40%;
+    margin-top: 1rem;
+    border: none;
+    text-align: center;
+    width: 10rem;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 2.5rem;
+    background-color: #028FBA;
+    margin-bottom: 2rem;
+
+}
+footer{
+    margin-top: 3rem;
+    background-color: rgb(233, 231, 224);
+}
+footer h2{
+    text-align: center;
+    height: 3rem;
+    font-style: italic;
+}

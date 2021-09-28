@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #f0f0f0; */
+}
+body{
+    background-color: #f0f0f0;
+}
+.text-center{
+    text-align: center;
+}
+.text-center h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.text-center p{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.mt-page {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.signin-btns{
+    margin-top: 2rem;
+    justify-content: center;
+}
+.btn_auth{
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width:20rem;
+    border-radius: 0.2rem;
+}
+.F-btn{
+    background-color:#4267B2;
+}
+.G-btn{
+    background-color:#0F9D58;
+}
