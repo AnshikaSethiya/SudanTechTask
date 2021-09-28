@@ -17,12 +17,12 @@ const NavigationBar = () => {
                         </div>
                         <div>
                             <li className="navbar-li">
-                            <Link to="./../ContactUs">
+                            <Link to="/ContactUs">
                                 <button className="draw-border">Contact Us</button>
                             </Link>
                             </li>
                         </div>
-                        <Link to="./../SignIn-out/SignOut.js">
+                        <Link to="/SignOut">
                         <li className="navbar-li"><button className="draw-border">Sign Out</button></li>
                         </Link>
                     </ul>

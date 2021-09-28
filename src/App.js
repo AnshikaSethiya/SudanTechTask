@@ -24,7 +24,9 @@ function App() {
   return (
      <Router>
        <Switch>
-         <Route path='/' component={Home} />
+         <Route path='/' component={Home} exact="true" />
+         <Route path='/ContactUs' component={ContactUs} exact/>
+         <Route path='/SignOut' component={SignIn} exact />
        </Switch>
      </Router>
     );

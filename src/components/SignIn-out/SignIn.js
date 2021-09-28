@@ -40,7 +40,6 @@ const SignIn = () => {
                         <Panel>
                             <div className="text-center">
                                 <h2>Welcome</h2>
-                                <p>Sudan Tech Internship task</p>
                             </div>
 
                             <div className="signin-btns">
